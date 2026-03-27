@@ -1,7 +1,7 @@
 ---
 name: webchat-enhancer
 description: 🌟 Enhance OpenClaw WebChat with clickable navigation. One-command install!
-version: 4.1.5
+version: 4.2.0
 author: Boss
 ---
 
@@ -13,33 +13,59 @@ author: Boss
 
 ## ⚡ One-Command Install
 
-Copy and paste this command:
-
 ```bash
 curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/install.sh | bash
 ```
 
-This will automatically:
-1. Install the skill via clawhub
-2. Open GreasyFork for one-click script install
+---
+
+## Install Tampermonkey
+
+**Chrome / Edge:**
+1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey)
+2. Enable **Developer Mode**: Open `chrome://extensions/` → Toggle **Developer Mode** ON
+3. Reload Tampermonkey if needed
+
+**Firefox / Safari:**
+Just install [Tampermonkey](https://www.tampermonkey.net/) directly
 
 ---
 
-## Manual Install
+## Install Script
 
-**Step 1:** Install Tampermonkey
-👉 https://www.tampermonkey.net/
-
-**Step 2:** Open GreasyFork
+**Option 1: GreasyFork (Recommended)**
 ```bash
 open "https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer"
 ```
+Then click the green **"Install"** button.
 
-**Step 3:** Click the green **"Install"** button
+**Option 2: Manual**
+1. Download: [enhancer.user.js](https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/scripts/enhancer.user.js)
+2. Open Tampermonkey Dashboard → Create new script → Paste & Save
 
-**Step 4:** Open WebChat: http://127.0.0.1:18789
+---
 
-Done! ✅
+## Open WebChat
+
+```
+http://127.0.0.1:18789
+```
+
+Navigation panel appears automatically! ✅
+
+---
+
+## Troubleshooting
+
+**If script doesn't work (Chrome):**
+1. Open `chrome://extensions/`
+2. Enable **Developer Mode** (toggle in top right)
+3. Find Tampermonkey → Click **Reload** 🔄
+4. Refresh WebChat page
+
+**If still not working:**
+- Make sure Tampermonkey icon is **colored** (not gray)
+- Try refreshing the page, wait 3 seconds
 
 ---
 
@@ -75,13 +101,8 @@ Requires Tampermonkey extension.
 
 ---
 
-## Files
+## Links
 
-```
-webchat-enhancer/
-├── SKILL.md
-├── install.sh      ← Run this for one-command install
-├── scripts/
-│   └── enhancer.user.js
-└── _meta.json
-```
+- 🌐 [ClawHub](https://clawhub.com/skills/webchat-enhancer)
+- 📦 [GreasyFork](https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer)
+- 💻 [GitHub](https://github.com/yjin94606-art/webchat-enhancer)

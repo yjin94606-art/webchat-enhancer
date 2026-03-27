@@ -1,38 +1,81 @@
 # WebChat Enhancer
 
-🌟 Add clickable navigation to OpenClaw WebChat | 4 Languages | 3 Themes
+🌟 **One-click navigation for OpenClaw WebChat**
+
+Transform your OpenClaw chat experience with clickable message navigation, 4 languages, and 3 beautiful themes.
 
 ---
 
 ## ⚡ One-Command Install
 
-Copy and paste this command:
-
 ```bash
 curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/install.sh | bash
 ```
 
-This will automatically:
-1. Install the skill via clawhub
-2. Open GreasyFork for one-click script install
+---
+
+## Requirements
+
+- **OpenClaw** running on `http://127.0.0.1:18789`
+- **Tampermonkey** browser extension
+
+### Install Tampermonkey
+
+| Browser | Install |
+|---------|---------|
+| Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey) |
+| Firefox | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) |
+| Edge | [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/tampermonkey) |
+| Safari | [Safari Tampermonkey](https://safari.tampermonkey.net/) |
+
+### ⚠️ Chrome: Enable Developer Mode
+
+If using Chrome, you must enable Developer Mode:
+
+1. Open `chrome://extensions/`
+2. Toggle **Developer Mode** ON (top right)
+3. Reload Tampermonkey extension
+4. Refresh WebChat page
 
 ---
 
-## Manual Install
+## Installation
 
-**Step 1:** Install Tampermonkey
-👉 https://www.tampermonkey.net/
+### Option 1: GreasyFork (Recommended)
 
-**Step 2:** Open GreasyFork
 ```bash
 open "https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer"
 ```
 
-**Step 3:** Click the green **"Install"** button
+Click the green **"Install"** button.
 
-**Step 4:** Open WebChat: http://127.0.0.1:18789
+### Option 2: Manual
 
-Done! ✅
+1. Download: [enhancer.user.js](https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/scripts/enhancer.user.js)
+2. Open Tampermonkey Dashboard
+3. Create new script → Paste code → Save
+
+---
+
+## Preview
+
+```
+┌─────────────────────────────┐
+│ 📑 Chat Navigator     [12]  │
+├─────────────────────────────┤
+│ ┌─────────────────────────┐ │
+│ │ 1  How to optimize...  │ │
+│ └─────────────────────────┘ │
+│ ┌─────────────────────────┐ │
+│ │ 2  Let me help you...   │ │
+│ └─────────────────────────┘ │
+│ ┌─────────────────────────┐ │
+│ │ 3 ✅ Latest message     │ │
+│ └─────────────────────────┘ │
+├─────────────────────────────┤
+│   🔄 Refresh   ⚙️ Settings  │
+└─────────────────────────────┘
+```
 
 ---
 
@@ -41,7 +84,7 @@ Done! ✅
 | Feature | Description |
 |---------|-------------|
 | 📑 **Clickable Navigation** | Jump to any conversation segment |
-| 🌐 **4 Languages** | EN · ZH · JA · KO |
+| 🌐 **4 Languages** | English · 中文 · 日本語 · 한국어 |
 | 🎨 **3 Themes** | Dark · Light · Gradient |
 | ⚡ **Auto-scan** | Automatically generates navigation |
 | 💾 **Persistent** | Settings saved locally |
@@ -52,53 +95,28 @@ Done! ✅
 
 | Action | Effect |
 |--------|--------|
-| Click title | Collapse/expand |
-| Drag title | Move panel |
-| Click card | Jump to message |
-| 🔄 Refresh | Rescan |
-| ⚙️ Settings | Language/Theme |
+| Click title bar | Collapse/expand panel |
+| Drag title bar | Move panel position |
+| Click any card | Jump to that message |
+| 🔄 Refresh | Rescan conversation |
+| ⚙️ Settings | Change language/theme |
 
 ---
 
-## Settings
+## Troubleshooting
 
-**Language:** English · 中文 · 日本語 · 한국어
-
-**Theme:** Dark · Light · Gradient
-
----
-
-## Browser Support
-
-Chrome · Firefox · Edge · Safari
-
-Requires Tampermonkey extension.
-
----
-
-## FAQ
-
-**Q: Is it safe?**
-> Yes. Script only runs on localhost. No data is sent anywhere.
-
-**Q: Not working?**
-> 1. Refresh page (F5)
-> 2. Make sure Tampermonkey icon is colored (not gray)
-> 3. Wait 3 seconds for panel to appear
-
----
-
-## Version
-
-4.1.5
+**Script not working?**
+1. Make sure Tampermonkey icon is **colored** (not gray)
+2. Enable **Developer Mode** in Chrome (`chrome://extensions/`)
+3. Refresh WebChat page and wait 3 seconds
 
 ---
 
 ## Links
 
-- **GreasyFork:** https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer
-- **GitHub:** https://github.com/yjin94606-art/webchat-enhancer
-- **ClawHub:** https://clawhub.com/skills/webchat-enhancer
+- 🌐 [ClawHub](https://clawhub.com/skills/webchat-enhancer)
+- 📦 [GreasyFork](https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer)
+- 💻 [GitHub](https://github.com/yjin94606-art/webchat-enhancer)
 
 ---
 
