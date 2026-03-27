@@ -9,7 +9,7 @@
 Copy and paste this command:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/install.sh | bash
 ```
 
 This will automatically:

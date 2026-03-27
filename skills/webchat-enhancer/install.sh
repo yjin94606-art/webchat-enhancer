@@ -2,7 +2,7 @@
 
 # WebChat Enhancer - One-Command Installer
 # Run this command to install:
-#   curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/install.sh | bash
+#   curl -sL https://raw.githubusercontent.com/yjin94606-art/webchat-enhancer/main/skills/webchat-enhancer/install.sh | bash
 
 set -e
 
