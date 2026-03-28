@@ -101,4 +101,4 @@ Requires Tampermonkey extension.
 
 - 🌐 [ClawHub](https://clawhub.com/skills/webchat-enhancer)
 - 📦 [GreasyFork](https://greasyfork.org/scripts/571337-webchat-enhancer)
-- 💻 [GitHub](https://github.com/yjin94606-art/webchat-enhancer)
+- 💻 [GitHub](https://github.com/yjin94606-art/openclaw-webchat-enhancer)
