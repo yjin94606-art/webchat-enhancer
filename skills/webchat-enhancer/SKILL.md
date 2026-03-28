@@ -1,13 +1,13 @@
 ---
 name: webchat-enhancer
-description: 🌟 Enhance OpenClaw WebChat with hover-expandable navigation. Auto theme sync with Lobster colors.
+description: 🌟 Hover-expandable navigation for OpenClaw WebChat. Auto theme sync, lobster colors, no settings needed.
 version: 4.5.0
 author: Boss
 ---
 
 # WebChat Enhancer
 
-🌟 Add clickable navigation to OpenClaw WebChat | 4 Languages | 3 Themes
+🌟 Hover-expandable navigation for OpenClaw WebChat | Auto Theme Sync | Lobster Colors
 
 ---
 
@@ -35,7 +35,7 @@ Just install [Tampermonkey](https://www.tampermonkey.net/) directly
 
 **Option 1: GreasyFork (Recommended)**
 ```bash
-open "https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer"
+open "https://greasyfork.org/scripts/571337-webchat-enhancer"
 ```
 Then click the green **"Install"** button.
 
@@ -55,29 +55,16 @@ Navigation panel appears automatically! ✅
 
 ---
 
-## Troubleshooting
-
-**If script doesn't work (Chrome):**
-1. Open `chrome://extensions/`
-2. Enable **Developer Mode** (toggle in top right)
-3. Find Tampermonkey → Click **Reload** 🔄
-4. Refresh WebChat page
-
-**If still not working:**
-- Make sure Tampermonkey icon is **colored** (not gray)
-- Try refreshing the page, wait 3 seconds
-
----
-
 ## Features
 
 | Feature | Description |
 |---------|-------------|
-| 📑 **Clickable Navigation** | Jump to any conversation segment |
-| 🌐 **4 Languages** | EN · ZH · JA · KO |
-| 🎨 **3 Themes** | Dark · Light · Gradient |
-| ⚡ **Auto-scan** | Automatically generates navigation |
-| 💾 **Persistent** | Settings saved locally |
+| 🖱️ **Hover to Expand** | Panel slides out when mouse approaches, hides when mouse leaves |
+| 🎨 **Auto Theme Sync** | Automatically matches WebChat Dark/Light mode |
+| 🦐 **Lobster Colors** | Crimson red accent inspired by OpenClaw's branding |
+| 📜 **Chat Navigator** | Click any card to jump to that message |
+| 🔄 **Auto-Updating** | Detects new messages automatically |
+| ⚡ **Zero Config** | Works out of the box — no settings needed |
 
 ---
 
@@ -85,11 +72,20 @@ Navigation panel appears automatically! ✅
 
 | Action | Effect |
 |--------|--------|
-| Click title | Collapse/expand |
-| Drag title | Move panel |
-| Click card | Jump to message |
-| 🔄 Refresh | Rescan |
-| ⚙️ Settings | Language/Theme |
+| Mouse enters right edge tab | Navigator slides out |
+| Mouse leaves navigator | Navigator slides back in |
+| Click any message card | Smooth scroll to that message |
+| Click **Refresh** | Rescan conversation |
+
+---
+
+## What Changed in 4.5.0
+
+- ❌ Removed language switching — English only
+- ❌ Removed theme selector — fully automatic
+- ❌ Removed settings panel
+- 🆕 Hover-expandable navigation
+- 🆕 Auto theme detection
 
 ---
 
@@ -104,5 +100,5 @@ Requires Tampermonkey extension.
 ## Links
 
 - 🌐 [ClawHub](https://clawhub.com/skills/webchat-enhancer)
-- 📦 [GreasyFork](https://greasyfork.org/zh-CN/scripts/571337-webchat-enhancer)
+- 📦 [GreasyFork](https://greasyfork.org/scripts/571337-webchat-enhancer)
 - 💻 [GitHub](https://github.com/yjin94606-art/webchat-enhancer)
